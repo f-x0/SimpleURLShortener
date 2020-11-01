@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ShortenerHUB</title>
+	<link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+<body>
+	<div class="logo">
+		Shortener
+		<span class="badge-orange">
+			<strong>
+				HUB
+			</strong>
+		</span>
+	</div>
+	<div class="main">
+		<form method="POST" id="formElem">
+			<input class="input-text" type="text" name="url" placeholder="https://google.com">
+			<input class="input-button" value="Send" type="submit">
+    	</form>
+    	<span class="response-text" id="response">Waiting...</span>
+	</div>
+</body>
+<script src="index.js"></script>
+</html>
